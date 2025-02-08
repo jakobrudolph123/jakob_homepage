@@ -68,6 +68,10 @@ position: fixed;
   font-size: 60px;
 }
 
+#contact h2:hover{
+text-decoration: line-trough;
+}
+
 #impressum{
   margin-top: 60px;
   text-align: center;
