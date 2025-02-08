@@ -57,17 +57,22 @@ position: fixed;
   text-align: center;
 }
 
-
+.contact {
+width: 300px;
+height: 200px;
+position: absolute;
+top: 50%;
+}
+	
+	
+	
 #contact h1{
-position: fixed;
 	left: 20px;
-	top: 140px;
-	font-size: 80px;
+	font-size: 60px;
 }
 
 #contact h2{
-margin-top: 240px;
-margin-left: 50px;
+margin-left: 20px;
 font-size: 60px;
 }
 
