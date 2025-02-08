@@ -16,35 +16,35 @@ text-decoration: none;
 
 position: fixed;
 	left: 20px;
-	top: 50px;
+	top: 20px;
 	font-size: 80px;
 }
 
 #canvashead h1{
 position: fixed;
 	left: 20px;
-	top: 50px;
+	top: 20px;
 	font-size: 80px;
 }
 
 #contacthead h1{
 position: fixed;
 	left: 20px;
-	top: 50px;
+	top: 20px;
 	font-size: 80px;
 }
 
 #paperhead h1{
 position: fixed;
 	left: 20px;
-	top: 50px;
+	top: 20px;
 	font-size: 80px;
   }
 
 #skinhead h1{
 position: fixed;
 	left: 20px;
-	top: 50px;
+	top: 20px;
 	font-size: 80px;
 }
 
@@ -59,9 +59,10 @@ position: fixed;
 
 
 #contact h1{
-margin-top: 100px;
-margin-left: 50px;
-font-size: 60px;
+position: fixed;
+	left: 20px;
+	top: 20px;
+	font-size: 80px;
 }
 
 #contact h2{
