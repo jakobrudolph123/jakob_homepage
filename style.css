@@ -190,13 +190,21 @@ inline;
 }
 
 .back{
-  font-size: 40px;
+position: fixed;
+	left: 50px;
+	bottom: 100px;
+	font-size: 60px;
   text-decoration: linethrough;
   margin-left: 50px;
   margin-bottom: 65px;
 }
 
-
+.back:focus{
+	text-decoration: line-through;
+}
+.back:active{
+	text-decoration: line-through;
+}
 #aboutbottom{
   margin-top: 50px
 }
