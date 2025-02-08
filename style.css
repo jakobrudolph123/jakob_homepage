@@ -61,12 +61,12 @@ position: fixed;
 #contact h1{
 position: fixed;
 	left: 20px;
-	top: 20px;
+	top: 140px;
 	font-size: 80px;
 }
 
 #contact h2{
-margin-top: 100px;
+margin-top: 240px;
 margin-left: 50px;
 font-size: 60px;
 }
