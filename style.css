@@ -100,13 +100,13 @@ text-decoration: none;
 .footer{
   float:right;
   position:fixed;bottom:0;
-  font-size:60px;
+  font-size:30px;
   color:lightgrey;
 }
 
 .footer a{
   float:right;
-  font-size:12px;
+  font-size:30px;
   color:lightgrey;
 }
 
