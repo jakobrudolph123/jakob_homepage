@@ -190,7 +190,8 @@ inline;
 }
 
 .back{
-  font-size: 14px;
+  font-size: 40px;
+  text-decoration: linethrough;
   margin-left: 50px;
   margin-bottom: 65px;
 }
