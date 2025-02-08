@@ -192,9 +192,8 @@ inline;
 .back{
 position: fixed;
 	left: 50px;
-	bottom: 100px;
+	bottom: 50px;
 	font-size: 60px;
-  text-decoration: linethrough;
   margin-left: 50px;
   margin-bottom: 65px;
 }
@@ -203,6 +202,9 @@ position: fixed;
 	text-decoration: line-through;
 }
 .back:active{
+	text-decoration: line-through;
+}
+.back:hover{
 	text-decoration: line-through;
 }
 #aboutbottom{
