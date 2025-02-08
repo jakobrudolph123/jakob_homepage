@@ -68,7 +68,7 @@ position: fixed;
   font-size: 60px;
 }
 
-#contact h2:hover{
+#contact h2.hover{
 text-decoration: line-trough;
 }
 
