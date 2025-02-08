@@ -1,5 +1,5 @@
 body{
-font-family:arial;
+font-family:helvetica;
 }
 
 body a{
@@ -9,41 +9,41 @@ text-underline: none;
 }
 
 body a:hover{
-text-decoration:line-through;
+text-decoration: none;
 }
 
 #abouthead h1{
-  font-size:16px;
-  margin-left:50px;
+  font-size:80px;
+  margin-left:80px;
   margin-top: 80px;
 }
 
 #canvashead h1{
-  font-size:16px;
+  font-size:80px;
   margin-left:50px;
   margin-top: 80px;
 }
 
 #contacthead h1{
-  font-size:16px;
+  font-size:80px;
   margin-left:50px;
   margin-top: 80px;
 }
 
 #paperhead h1{
-  font-size:16px;
+  font-size:80px;
   margin-left:50px;
   margin-top: 80px;
   }
 
 #skinhead h1{
-  font-size:16px;
+  font-size:80px;
   margin-left:50px;
   margin-top: 80px;
 }
 
 #impressumhead h1 {
-  font-size:16px;
+  font-size:80px;
   text-align: center;
 }
 
