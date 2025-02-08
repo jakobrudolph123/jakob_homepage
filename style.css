@@ -13,33 +13,39 @@ text-decoration: none;
 }
 
 #abouthead h1{
-  font-size:80px;
-  margin-left:80px;
-  margin-top: 80px;
+
+position: fixed;
+	left: 20px;
+	top: 50px;
+	font-size: 80px;
 }
 
 #canvashead h1{
-  font-size:80px;
-  margin-left:50px;
-  margin-top: 80px;
+position: fixed;
+	left: 20px;
+	top: 50px;
+	font-size: 80px;
 }
 
 #contacthead h1{
-  font-size:80px;
-  margin-left:50px;
-  margin-top: 80px;
+position: fixed;
+	left: 20px;
+	top: 50px;
+	font-size: 80px;
 }
 
 #paperhead h1{
-  font-size:80px;
-  margin-left:50px;
-  margin-top: 80px;
+position: fixed;
+	left: 20px;
+	top: 50px;
+	font-size: 80px;
   }
 
 #skinhead h1{
-  font-size:80px;
-  margin-left:50px;
-  margin-top: 80px;
+position: fixed;
+	left: 20px;
+	top: 50px;
+	font-size: 80px;
 }
 
 #impressumhead h1 {
@@ -191,11 +197,9 @@ inline;
 
 .back{
 position: fixed;
-	left: 50px;
+	left: 20px;
 	bottom: 50px;
 	font-size: 60px;
-  margin-left: 50px;
-  margin-bottom: 65px;
 }
 
 .back:focus{
