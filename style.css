@@ -85,21 +85,22 @@ text-decoration: none;
 }
 
 #header h1 {
-  font-size: 16px;
+  font-size: 120px;
+  text-decoration: linethrough;
   margin-left:60px;
   margin-top: 80px;
 }
 
 #header h2 {
-  text-decoration: line-through;
-  font-size: 16px;
+  text-decoration: none;
+  font-size: 120px;
   margin-left:60px;
 }
 
 .footer{
   float:right;
   position:fixed;bottom:0;
-  font-size:12px;
+  font-size:120px;
   color:lightgrey;
 }
 
