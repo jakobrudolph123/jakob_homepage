@@ -85,7 +85,7 @@ text-decoration: none;
 }
 
 #header h1 {
-  font-size: 120px;
+  font-size: 80px;
   text-decoration: linethrough;
   margin-left:60px;
   margin-top: 80px;
@@ -93,14 +93,14 @@ text-decoration: none;
 
 #header h2 {
   text-decoration: none;
-  font-size: 120px;
+  font-size: 80px;
   margin-left:60px;
 }
 
 .footer{
   float:right;
   position:fixed;bottom:0;
-  font-size:120px;
+  font-size:60px;
   color:lightgrey;
 }
 
