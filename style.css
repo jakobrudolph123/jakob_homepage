@@ -64,6 +64,7 @@ position: fixed;
 }
 
 #contact h2{
+	margin-top: 100px;
   margin-left: 50px;
   font-size: 60px;
 }
