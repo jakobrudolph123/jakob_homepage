@@ -129,7 +129,11 @@ text-decoration: line-through;
 
 
 #abouttext {
-  width: 450px;
+position: fixed;
+	left: 20px;
+	top: 200px;
+	font-size: 80px;
+	width: 450px;
   height: 200px;
   float:left;
 }
