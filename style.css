@@ -1,322 +1,172 @@
-body{
-font-family:helvetica;
+/* ========================= */
+/* RESET */
+/* ========================= */
+
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
-body a{
-color:black;
-text-decoration: none;
-text-underline: none;
+/* ========================= */
+/* GRUNDSTIL */
+/* ========================= */
+
+body {
+  font-family: Arial, sans-serif;
 }
 
-body a:hover{
-text-decoration: none;
-}
-
-#abouthead h1{
-
-position: fixed;
-	left: 20px;
-	top: 20px;
-	font-size: 80px;
-}
-
-#canvashead h1{
-position: fixed;
-	left: 20px;
-	top: 20px;
-	font-size: 80px;
-}
-
-#contacthead h1{
-position: fixed;
-	left: 20px;
-	top: 20px;
-	font-size: 80px;
-}
-
-#paperhead h1{
-position: fixed;
-	left: 20px;
-	top: 20px;
-	font-size: 80px;
-  }
-
-#skinhead h1{
-position: fixed;
-	left: 20px;
-	top: 20px;
-	font-size: 80px;
-}
-
-#impressumhead h1 {
-  font-size:80px;
-  text-align: center;
-}
-
-#impressumback{
-  text-align: center;
-}
-
-#contact {
-position: fixed;
-	left: 20px;
-	top: 200px;
-	font-size: 80px;
-}	
-	
-	
-#contact h1{
-	margin-left: 20px;
-	font-size: 60px;
-}
-
-#contact h2{
-margin-left: 20px;
-font-size: 60px;
-}
-
-#contact h2:hover{
-text-decoration: line-through;
-}
-
-#impressum{
-  margin-top: 60px;
-  text-align: center;
-  margin-left: 50px
-}
-
-.box{
-  vertical-align
-  display:inline;
-}
-
-.indexlogo{
-  width: 400px;
-  height: 600px;
-  margin-top: 0px;
-  float:right;
-}
-
-.indexwrapper {
-  display:inline;
-}
-
-#header h1 {
-  font-size: 80px;
-  text-decoration: linethrough;
-  margin-left:60px;
-  margin-top: 80px;
-}
-
-#header h2 {
+body a {
+  color: black;
   text-decoration: none;
-  font-size: 80px;
-  margin-left:60px;
 }
 
-.footer{
-  float:right;
-  position:fixed;bottom:0;
-  font-size:30px;
-  color:lightgrey;
+body a:hover {
+  text-decoration: line-through;
 }
 
-.footer a{
-  float:right;
-  font-size:30px;
-  color:lightgrey;
+/* ========================= */
+/* INDEX */
+/* ========================= */
+
+.box {
+  display: inline;
 }
 
+.index {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.indexlogo {
+  width: 50%;
+  float: right;
+  margin-right: 50px;
+  box-sizing: border-box;
+}
+
+/* ========================= */
+/* HEADER */
+/* ========================= */
+
+#header {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+/* ========================= */
+/* FOOTER – IMMER RECHTS UNTEN */
+/* ========================= */
+
+.footer {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 15px;
+  color: lightgrey;
+  z-index: 1000;
+  background: transparent;
+}
+
+.footer a {
+  color: lightgrey;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: line-through;
+}
+
+/* ========================= */
+/* ABOUT */
+/* ========================= */
 
 #abouttext {
-position: fixed;
-	left: 20px;
-	top: 200px;
-	font-size: 14px;
-	width: 450px;
+  width: 450px;
   height: 200px;
-  float:left;
+  float: left;
 }
 
-.skinwrapper{
-  margin-left: 30px;
-  height:650px;
-  width:7350px;
+/* ========================= */
+/* SKIN / BILDER – FULLSCREEN */
+/* ========================= */
+
+.skinwrapper {
+  width: 100%;
 }
 
-.skinwrapper div{
-  display:inline; 
+.skinwrapper img {
+  width: 100%;
+  height: 100vh;   /* Fallback */
+  height: 100svh; /* Sichtbare Höhe (Mobile Fix) */
+  object-fit: cover;
+  display: block;
 }
 
-.paperwrapper{
-  margin-left: 30px;
-  height:750px;
-  width:4350px;
+/* ========================= */
+/* CANVAS */
+/* ========================= */
+
+.canvaswrapper {
+  width: 100%;
 }
 
-.paperwrapper div{
-  display:inline;
+.canvaswrapper div {
+  display: inline-block;
 }
 
+/* ========================= */
+/* ABOUT META */
+/* ========================= */
 
-ul {
-  text-decoration: none;
-}
-
-.canvaswrapper{
-  margin-left: 30px;
-  height:700px;
-  width:3000px;
-}
-
-.canvaswrapper div{
-  inline;
-}
-
-.aboutmetawrapper div{
-  display: :block;
-}
-
-.aboutwrapper div{
-inline;
-}
-
-
-.aboutmetawrapper{
-  background-color: green
+.aboutmetawrapper {
   margin-left: 50px;
-  width:900px;
-  height:600px;
-
+  width: 900px;
+  height: 600px;
 }
 
-#aboutfoto{
-  float:right;
+.aboutmetawrapper div {
+  display: block;
+}
+
+#aboutfoto {
+  float: right;
   margin-left: 50px;
   margin-top: 50px;
 }
 
-.aboutwrapper{
+/* ========================= */
+/* ABOUT WRAPPER */
+/* ========================= */
+
+.aboutwrapper {
   margin-left: 50px;
-  background-color: orange
-  width:850px;
-  height:600px;
+  width: 850px;
+  height: 600px;
 }
 
-#back p{
-  position:
-  background-color: yellow;
-  height:100px;
-  width: 200px;
+.aboutwrapper div {
+  display: inline-block;
 }
 
-.back{
-position: fixed;
-	left: 20px;
-	bottom: 50px;
-	font-size: 60px;
+/* ========================= */
+/* BACK LINK */
+/* ========================= */
+
+.back {
+  margin-bottom: 65px;
+  text-align: center;
 }
 
-.back:focus{
-	text-decoration: line-through;
-}
-.back:active{
-	text-decoration: line-through;
-}
-.back:hover{
-	text-decoration: line-through;
-}
-#aboutbottom{
-  margin-top: 50px
+/* ========================= */
+/* SONSTIGES */
+/* ========================= */
+
+#aboutbottom {
+  margin-top: 50px;
 }
 
-#paper1{
-  margin-top:50px
-}
-
-#primary_nav_wrap
-{
-  display: block;
-	margin-top:15px;
-  margin-left:50px;
-}
-
-#primary_nav_wrap li
-{
-  display: block;
-	margin-top:15px
-}
-
-#primary_nav_wrap ul
-{
-  display: block;
-	list-style:none;
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0
-}
-
-#primary_nav_wrap ul a
-{
-	display:block;
-	color:#333;
-	text-decoration:none;
-	font-weight:700;
-	font-size:60px;
-	line-height:100px;
-	padding:0 15px;
-	font-family:helvetica;
-}
-
-#primary_nav_wrap ul li
-{
-  display: block;
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0
-}
-
-#primary_nav_wrap ul li.current-menu-item
-{
-	background:#ddd
-}
-
-#primary_nav_wrap ul li:hover
-{
-	text-decoration: line-through;
-}
-
-#primary_nav_wrap ul ul
-{
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:#fff;
-	padding:0
-}
-
-#primary_nav_wrap ul ul li
-{
-	float:none;
-	width:200px
-}
-
-#primary_nav_wrap ul ul a
-{
-	line-height:120%;
-	padding:10px 15px
-}
-
-#primary_nav_wrap ul ul ul
-{
-	top:0;
-	left:100%
-}
-
-#primary_nav_wrap ul li:hover > ul
-{
-  display:block
+#paper1 {
+  margin-top: 50px;
 }
