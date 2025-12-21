@@ -1,128 +1,126 @@
 
-body{
-font-family:arial;
+body {
+  font-family: Arial, sans-serif;
 }
 
-body a{
-color:black;
-text-decoration: none;
-text-underline: none;
+body a {
+  color: black;
+  text-decoration: none;
 }
 
-body a:hover{
-text-decoration:line-through;
+body a:hover {
+  text-decoration: line-through;
 }
 
-.box{
-  vertical-align
-  display:inline;
+/* Boxen */
+.box {
+  display: inline-block;
+  vertical-align: top;
 }
 
-.index{
-  height:100%auto;
-  width: :50%;
-  float:left;
-  box-sizing: padding-box;
+/* Index */
+.index {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
 }
 
-.indexlogo{
-  margin-top:0px;
-  margin-right:50px;
-  height:100%auto;
-  width: :50%;
-  float:right;
+.indexlogo {
+  width: 50%;
+  float: right;
+  margin-right: 50px;
 }
 
-
-#header{
-  margin-left:30px;
+/* Header */
+#header {
+  margin-left: 30px;
   margin-top: 50px;
 }
 
-
-.footer{
-  float:right;
-  position:fixed;bottom:0;
-  font-size:15px;
-  color:lightgrey;
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 15px;
+  color: lightgrey;
 }
 
-.footer a{
-  float:right;
-  font-size:15px;
-  color:lightgrey;
+.footer a {
+  color: lightgrey;
+  font-size: 15px;
 }
 
-
+/* About */
 #abouttext {
   width: 450px;
   height: 200px;
-  float:left;
+  float: left;
 }
 
-.skinwrapper{
-  height:2000px;
-  width:10000px;
-}
-
-.skinwrapper div{
-  display:inline;
-}
-
-
-
-.canvaswrapper{
-  height:700px;
-  width:2500px;
-}
-.canvaswrapper div{
-  inline;
-}
-
-.aboutmetawrapper div{
-  display: :block;
-}
-
-.aboutwrapper div{
-inline;
-}
-
-.aboutmetawrapper{
-  background-color: green
-  margin-left: 50px;
-  width:900px;
-  height:600px;
-
-}
-
-#aboutfoto{
-  float:right;
+#aboutfoto {
+  float: right;
   margin-left: 50px;
   margin-top: 50px;
 }
 
-.aboutwrapper{
+/* Wrapper */
+.skinwrapper {
+  width: 10000px;
+  height: 2000px;
+}
+
+.skinwrapper div {
+  display: inline-block;
+}
+
+.canvaswrapper {
+  width: 2500px;
+  height: 700px;
+}
+
+.canvaswrapper div {
+  display: inline-block;
+}
+
+.aboutmetawrapper {
   margin-left: 50px;
-  background-color: orange
-  width:850px;
-  height:600px;
+  width: 900px;
+  height: 600px;
+  background-color: green;
 }
 
-#back{
-  position:
+.aboutmetawrapper div {
+  display: block;
+}
+
+.aboutwrapper {
+  margin-left: 50px;
+  width: 850px;
+  height: 600px;
+  background-color: orange;
+}
+
+.aboutwrapper div {
+  display: inline-block;
+}
+
+/* Navigation / Buttons */
+#back {
+  width: 200px;
+  height: 100px;
   background-color: yellow;
-height:100px;
-width: 200px;
 }
 
-.back{
+.back {
   margin-bottom: 65px;
 }
 
-#aboutbottom{
-  margin-top: 50px
+/* Sonstiges */
+#aboutbottom {
+  margin-top: 50px;
 }
 
-#paper1{
-  margin-top:50px
+#paper1 {
+  margin-top: 50px;
 }
