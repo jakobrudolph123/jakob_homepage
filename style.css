@@ -129,9 +129,8 @@ a:hover {
   bottom: 20px;          /* Abstand vom unteren Rand */
   left: 0px;            /* Abstand vom linken Rand */
   z-index: 9999;         /* liegt über allen Wrappern */
-
+  font-size: 30px;
   display: inline-block;
-  padding: 15px 30px;
 }
 
 .back:hover {
