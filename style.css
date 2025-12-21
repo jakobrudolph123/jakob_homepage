@@ -127,26 +127,15 @@ a:hover {
 .back {
   position: fixed;       /* fest auf dem Bildschirm */
   bottom: 20px;          /* Abstand vom unteren Rand */
-  left: 20px;            /* Abstand vom linken Rand */
+  left: 0px;            /* Abstand vom linken Rand */
   z-index: 9999;         /* liegt über allen Wrappern */
 
   display: inline-block;
-  padding: 15px 30px;    /* Innenabstand */
-  border: 2px solid black;
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 2em;        /* doppelte Schriftgröße */
-  text-align: center;
-  cursor: pointer;
-  text-decoration: none;
-  color: black;
-  background-color: transparent;  /* kein Hintergrund */
-  transition: all 0.3s;
+  padding: 15px 30px;
 }
 
 .back:hover {
   text-decoration: line-through;
-  transform: scale(1.05);
 }
 
 /* =====================
