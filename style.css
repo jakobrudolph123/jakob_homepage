@@ -45,7 +45,7 @@ a:hover {
   width: 100%;
   text-align: center;
   padding: 30px 0;
-  background-color: white;
+  background-color: #255;
   box-sizing: border-box;
 }
 
@@ -66,7 +66,7 @@ a:hover {
 ===================== */
 #primary_nav_wrap {
   width: 100%;
-  background-color: #480;
+  background-color: #255;
 }
 
 #primary_nav_wrap ul {
@@ -100,7 +100,7 @@ a:hover {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #480;
+  background-color: #255;
   padding: 0;
   min-width: 200px;
   z-index: 1000;
