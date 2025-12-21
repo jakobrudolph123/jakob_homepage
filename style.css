@@ -104,7 +104,7 @@ a:hover {
 /* Dropdown-Menü vertikal */
 #primary_nav_wrap ul li ul {
   display: none;
-  padding-left: 15px;
+  padding-left: 0px;
   margin-top: 5px;
 }
 
@@ -127,13 +127,37 @@ a:hover {
 .back {
   position: fixed;       /* fest auf dem Bildschirm */
   bottom: 20px;          /* Abstand vom unteren Rand */
-  left: 0px;            /* Abstand vom linken Rand */
+  left: 0px;             /* Abstand vom linken Rand */
   z-index: 9999;         /* liegt über allen Wrappern */
-  font-size: 30px;
+  font-size: 30px;       /* Schriftgröße */
+  font-weight: bold;      /* fett */
   display: inline-block;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 
 .back:hover {
+  text-decoration: line-through;
+}
+
+/* =====================
+   TITLE ÜBER ALLEN WRAPPERN
+===================== */
+.title {
+  position: fixed;       /* immer über allen Wrappern */
+  top: 10px;             /* 10px Abstand nach oben */
+  left: 0;               /* am linken Rand */
+  z-index: 10000;        /* sehr hoch, über allen anderen Elementen */
+  font-size: 30px;       /* gleiche Größe wie .back */
+  font-weight: bold;      /* fett */
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  padding: 5px 10px;
+}
+
+.title:hover {
   text-decoration: line-through;
 }
 
@@ -267,7 +291,12 @@ a:hover {
   }
 
   .back {
-    left: 20px;
+    left: 0px;
     bottom: 20px;
+  }
+
+  .title {
+    top: 10px;
+    left: 0;
   }
 }
