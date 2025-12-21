@@ -4,6 +4,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  background-color: #fff;
 }
 
 a {
@@ -33,9 +34,10 @@ a:hover {
 }
 
 .indexlogo {
-  width: 50%;
+  max-width: 400px;
+  height: auto;
   float: right;
-  margin-right: 50px;
+  margin-left: 20px;
 }
 
 /* =====================
@@ -45,7 +47,6 @@ a:hover {
   width: 100%;
   text-align: center;
   padding: 30px 0;
-  background-color: #255;
   box-sizing: border-box;
 }
 
@@ -62,73 +63,62 @@ a:hover {
 }
 
 /* =====================
-   NAVIGATION
+   MAIN CONTENT
+   Navigation links + Logo rechts
+===================== */
+.main-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 50px;
+}
+
+/* =====================
+   VERTIKALE NAVIGATION LINKS
 ===================== */
 #primary_nav_wrap {
-  width: 100%;
-  background-color: #255;
+  width: 200px; /* feste Breite für die vertikale Navigation */
 }
 
 #primary_nav_wrap ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-align: center; /* horizontale Ausrichtung */
 }
 
 #primary_nav_wrap ul li {
-  display: inline-block;
   position: relative;
 }
 
 #primary_nav_wrap ul li a {
   display: block;
-  padding: 15px 25px;
-  color: white;
-  text-decoration: none;
+  padding: 12px 20px;
   font-weight: bold;
-  transition: background 0.3s;
+  transition: all 0.3s;
 }
 
 #primary_nav_wrap ul li a:hover {
-  background-color: #555;
+  text-decoration: line-through;
 }
 
-/* Dropdown-Menü */
+/* Dropdown-Menü vertikal */
 #primary_nav_wrap ul li ul {
   display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #255;
-  padding: 0;
-  min-width: 200px;
-  z-index: 1000;
+  padding-left: 15px;
+  margin-top: 5px;
 }
 
 #primary_nav_wrap ul li:hover > ul {
   display: block;
 }
 
-#primary_nav_wrap ul li ul li {
-  display: block;
-}
-
 #primary_nav_wrap ul li ul li a {
-  padding: 10px 20px;
+  padding: 8px 15px;
+  font-weight: normal;
 }
 
-/* =====================
-   RESPONSIVE
-===================== */
-@media (max-width: 768px) {
-  #primary_nav_wrap ul li {
-    display: block;
-  }
-
-  #primary_nav_wrap ul li ul {
-    position: static;
-  }
+#primary_nav_wrap ul li ul li a:hover {
+  text-decoration: line-through;
 }
 
 /* =====================
@@ -145,6 +135,10 @@ a:hover {
 .footer a {
   color: lightgrey;
   font-size: 15px;
+}
+
+.footer a:hover {
+  text-decoration: line-through;
 }
 
 /* =====================
@@ -166,8 +160,6 @@ a:hover {
    FULLSCREEN WRAPPER
    (Displayhöhe)
 ===================== */
-
-/* Skin */
 .skinwrapper {
   width: 10000px;
   height: 100vh;
@@ -177,7 +169,6 @@ a:hover {
   display: inline-block;
 }
 
-/* Canvas */
 .canvaswrapper {
   width: 2500px;
   height: 100vh;
@@ -187,7 +178,6 @@ a:hover {
   display: inline-block;
 }
 
-/* Paper */
 .paperwrapper {
   width: 2500px;
   height: 100vh;
@@ -204,7 +194,6 @@ a:hover {
   margin-left: 50px;
   width: 900px;
   height: 600px;
-  background-color: green;
 }
 
 .aboutmetawrapper div {
@@ -215,7 +204,6 @@ a:hover {
   margin-left: 50px;
   width: 850px;
   height: 600px;
-  background-color: orange;
 }
 
 .aboutwrapper div {
@@ -228,7 +216,6 @@ a:hover {
 #back {
   width: 200px;
   height: 100px;
-  background-color: yellow;
 }
 
 .back {
@@ -244,4 +231,34 @@ a:hover {
 
 #paper1 {
   margin-top: 50px;
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #primary_nav_wrap {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #primary_nav_wrap ul li {
+    display: block;
+  }
+
+  #primary_nav_wrap ul li ul {
+    position: static;
+    padding-left: 20px;
+  }
+
+  .indexlogo {
+    float: none;
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }
