@@ -77,7 +77,7 @@ a:hover {
    VERTIKALE NAVIGATION LINKS
 ===================== */
 #primary_nav_wrap {
-  width: 200px; /* feste Breite für die vertikale Navigation */
+  width: 200px;
 }
 
 #primary_nav_wrap ul {
@@ -119,6 +119,34 @@ a:hover {
 
 #primary_nav_wrap ul li ul li a:hover {
   text-decoration: line-through;
+}
+
+/* =====================
+   GLOBALER BACK-BUTTON
+===================== */
+.back {
+  position: fixed;       /* fest auf dem Bildschirm */
+  bottom: 20px;          /* Abstand vom unteren Rand */
+  left: 20px;            /* Abstand vom linken Rand */
+  z-index: 9999;         /* liegt über allen Wrappern */
+
+  display: inline-block;
+  padding: 15px 30px;    /* Innenabstand */
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 2em;        /* doppelte Schriftgröße */
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;  /* kein Hintergrund */
+  transition: all 0.3s;
+}
+
+.back:hover {
+  text-decoration: line-through;
+  transform: scale(1.05);
 }
 
 /* =====================
@@ -179,7 +207,7 @@ a:hover {
 }
 
 .paperwrapper {
-  width: 10000px;
+  width: 2500px;
   height: 100vh;
 }
 
@@ -208,18 +236,6 @@ a:hover {
 
 .aboutwrapper div {
   display: inline-block;
-}
-
-/* =====================
-   Navigation / Buttons
-===================== */
-#back {
-  width: 200px;
-  height: 100px;
-}
-
-.back {
-  margin-bottom: 65px;
 }
 
 /* =====================
@@ -260,5 +276,10 @@ a:hover {
     float: none;
     margin-left: 0;
     margin-top: 20px;
+  }
+
+  .back {
+    left: 20px;
+    bottom: 20px;
   }
 }
