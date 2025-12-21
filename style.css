@@ -1,4 +1,6 @@
-
+/* =====================
+   Grundlayout
+===================== */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -37,11 +39,96 @@ a:hover {
 }
 
 /* =====================
-   Header
+   HEADER
 ===================== */
 #header {
-  margin-left: 30px;
-  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  background-color: #f5f5f5; /* hellgrau, kann angepasst werden */
+  box-sizing: border-box;
+}
+
+#header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+#header h2 {
+  margin: 5px 0 0 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #555;
+}
+
+/* =====================
+   NAVIGATION
+===================== */
+#primary_nav_wrap {
+  width: 100%;
+  background-color: #333;
+}
+
+#primary_nav_wrap ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center; /* horizontale Ausrichtung */
+}
+
+#primary_nav_wrap ul li {
+  display: inline-block;
+  position: relative;
+}
+
+#primary_nav_wrap ul li a {
+  display: block;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+#primary_nav_wrap ul li a:hover {
+  background-color: #555;
+}
+
+/* Dropdown-Menü */
+#primary_nav_wrap ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 0;
+  min-width: 200px;
+  z-index: 1000;
+}
+
+#primary_nav_wrap ul li:hover > ul {
+  display: block;
+}
+
+#primary_nav_wrap ul li ul li {
+  display: block;
+}
+
+#primary_nav_wrap ul li ul li a {
+  padding: 10px 20px;
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 768px) {
+  #primary_nav_wrap ul li {
+    display: block;
+  }
+
+  #primary_nav_wrap ul li ul {
+    position: static;
+  }
 }
 
 /* =====================
