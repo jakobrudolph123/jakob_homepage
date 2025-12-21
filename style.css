@@ -1,6 +1,4 @@
-/* =====================
-   Grundlayout
-===================== */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -109,16 +107,6 @@ a:hover {
 }
 
 .paperwrapper div {
-  display: inline-block;
-}
-
-/* Fotos */
-.fotowrapper {
-  width: 2500px;
-  height: 100vh;
-}
-
-.fotowrapper div {
   display: inline-block;
 }
 
