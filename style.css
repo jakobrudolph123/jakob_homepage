@@ -80,7 +80,8 @@ a:hover {
 ===================== */
 #primary_nav_wrap {
   width: 200px;
-  font-size: 1rem;
+  font-size: 2.5rem;
+  letter-spacing: -0.1em;
 }
 
 #primary_nav_wrap ul {
