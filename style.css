@@ -80,8 +80,7 @@ a:hover {
 ===================== */
 #primary_nav_wrap {
   width: 200px;
-  font-size: 30px;
-  letter-spacing: -0.1em;
+  font-size: 1rem;
 }
 
 #primary_nav_wrap ul {
@@ -126,7 +125,7 @@ a:hover {
 
 .title {
   position: fixed;
-  top: 5px;
+  top: 15px;
   left: 5px;
   z-index: 99999;
   font-size: 30px;
