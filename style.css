@@ -148,10 +148,10 @@ a:hover {
 .footer {
   width: 100%;                /* Footer über gesamte Breite */
   text-align: center;          /* Text zentrieren */
-  font-size: 15px;
+  font-size: 10px;
   color: lightgrey;
   font-family: Arial, sans-serif;
-  padding: 10px 10px;             /* Abstand oben und unten */
+  padding: 5px 5px;             /* Abstand oben und unten */
   position: fixed;          /* nicht mehr fixed */
   bottom: 0;                   /* optional */
   z-index: 9999;
