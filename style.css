@@ -110,6 +110,7 @@ a:hover {
 #primary_nav_wrap ul li ul {
   display: none;
   margin-top: 5px;
+  font-weight: normal;
 }
 
 #primary_nav_wrap ul li:hover > ul {
