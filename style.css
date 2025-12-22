@@ -175,7 +175,7 @@ a:hover {
   height: 100vh;         /* Wrapper füllt 100% der Viewport-Höhe aus */
   display: flex;
   justify-content: center;  /* Bilder horizontal zentrieren */
-  align-items: center;      /* Bilder vertikal zentrieren */
+  align-items: left;      /* Bilder vertikal zentrieren */
 }
 
 .skinwrapper img,
