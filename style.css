@@ -48,6 +48,7 @@ a:hover {
   padding: 30px 60px;
   box-sizing: border-box;
   margin-left: 45px;
+  line-height: -0,5;
 }
 
 #header h1 {
@@ -63,7 +64,8 @@ a:hover {
   text-align: center;
   margin: 5px 0 0 0;
   font-size: 2.5rem;
-  font-weight
+  letter-spacing: -0.1em;
+  word-spacing: 1em;
   font-family: Arial, sans-serif;
 }
 
@@ -72,7 +74,8 @@ a:hover {
   text-align: right;
   margin: 5px 0 0 0;
   font-size: 2.5rem;
-  font-weight: 
+  letter-spacing: -0.1em;
+  word-spacing: 1em;
   font-family: Arial, sans-serif;
 }
 
