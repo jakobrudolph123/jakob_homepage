@@ -185,7 +185,7 @@ a:hover {
 .paperwrapper img {
   height: 90vh;           /* Höhe der Bilder auf maximal 90% des Viewports setzen */
   width: auto;            /* Seitenverhältnis der Bilder beibehalten */
-  margin-right: 10px;     /* Abstand zwischen den Bildern */
+  margin-right: 5px;     /* Abstand zwischen den Bildern */
 }
 
 /* =====================
