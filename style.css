@@ -151,7 +151,7 @@ a:hover {
   font-size: 10px;
   color: lightgrey;
   font-family: Arial, sans-serif;
-  padding: 5px 5px;             /* Abstand oben und unten */
+  padding: 0px 5px;             /* Abstand oben und unten */
   position: fixed;          /* nicht mehr fixed */
   bottom: 0;                   /* optional */
   z-index: 9999;
