@@ -169,22 +169,21 @@ a:hover {
 /* =====================
    FULLSCREEN WRAPPER
 ===================== */
-.skinwrapper {
-  width: 10000px;
-  height: 80vh;
-}
 
+.skinwrapper,
 .canvaswrapper,
 .paperwrapper {
   width: 8500px;
   height: 80vh;
+  display: flex;
+  align-items: center;
 }
 
 .skinwrapper img,
 .canvaswrapper img,
 .paperwrapper img {
   display: inline-block;
-  height: 80vh;
+  height: 90vh;
 }
 
 /* =====================
