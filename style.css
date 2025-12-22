@@ -200,6 +200,7 @@ a:hover {
   font-family: Arial, sans-serif;
   letter-spacing: -0.1em;
   margin: 50px 50px 50px 50px;
+  text-align: center;
 }
 
 #contact * {
