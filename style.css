@@ -1,8 +1,8 @@
-=/* =====================
-   Grundlayout
+/* =====================
+   GRUNDLAYOUT
 ===================== */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;  /* gesamte Seite Arial */
   margin: 0;
   background-color: #fff;
 }
@@ -17,7 +17,7 @@ a:hover {
 }
 
 /* =====================
-   Allgemeine Boxen
+   ALLGEMEINE BOXEN
 ===================== */
 .box {
   display: inline-block;
@@ -25,7 +25,7 @@ a:hover {
 }
 
 /* =====================
-   Index / Startseite
+   INDEX / STARTSEITE
 ===================== */
 .index {
   width: 50%;
@@ -41,7 +41,7 @@ a:hover {
 }
 
 /* =====================
-   HEADER (Startseite)
+   HEADER
 ===================== */
 #header {
   width: 100%;
@@ -56,6 +56,7 @@ a:hover {
   font-size: 2.5rem;
   letter-spacing: -0.1em;
   word-spacing: 1em;
+  font-family: Arial, sans-serif;  /* Header Schriftart */
 }
 
 #header h2 {
@@ -63,6 +64,7 @@ a:hover {
   font-size: 1.2rem;
   font-weight: normal;
   color: #555;
+  font-family: Arial, sans-serif;
 }
 
 /* =====================
@@ -76,7 +78,7 @@ a:hover {
 }
 
 /* =====================
-   NAVIGATION
+   VERTIKALE NAVIGATION
 ===================== */
 #primary_nav_wrap {
   width: 200px;
@@ -97,9 +99,10 @@ a:hover {
   display: block;
   padding: 12px 20px;
   font-weight: bold;
-  font-size: 2.5rem;           /* gleiche Schriftgröße wie h1 */
-  letter-spacing: -0.1em;      /* gleiche Letter-Spacing wie h1 */
-  word-spacing: 1em;           /* gleiche Word-Spacing wie h1 */
+  font-size: 2.5rem;           /* wie h1 */
+  letter-spacing: -0.1em;      /* wie h1 */
+  word-spacing: 1em;           /* wie h1 */
+  font-family: Arial, sans-serif;
   transition: all 0.3s;
 }
 
@@ -123,6 +126,7 @@ a:hover {
   z-index: 9999;
   font-size: 30px;
   font-weight: bold;
+  font-family: Arial, sans-serif;
 }
 
 .title {
@@ -132,6 +136,7 @@ a:hover {
   z-index: 99999;
   font-size: 30px;
   font-weight: bold;
+  font-family: Arial, sans-serif;
 }
 
 /* =====================
@@ -143,51 +148,33 @@ a:hover {
   right: 0;
   font-size: 10px;
   color: lightgrey;
+  font-family: Arial, sans-serif;
 }
 
 .footer a {
   color: lightgrey;
 }
 
-/* ==================================================
-   🔴 ENTSCHEIDENDE ERGÄNZUNG (NEU)
-   -> erkennt SKIN / PAPER / CANVAS symmetrisch
-================================================== */
-.page {
-  margin-left: 10px;
-}
-
-.page-head {
-  margin-bottom: 20px;
-}
-
-.page-head h1 {
-  margin: 0;
-  font-size: 2.5rem;
-  letter-spacing: -0.1em;
-}
-/* ================================================== */
 /* =====================
-   FULLSCREEN WRAPPER
+   FULLSCREEN WRAPPER (SKIN / CANVAS / PAPER)
 ===================== */
 .skinwrapper,
 .canvaswrapper,
 .paperwrapper {
-  width: 8500px;          /* Feste Breite des Wrappers */
-  height: 100vh;          /* Wrapper füllt 100% des Viewports aus */
-  display: flex;          /* Flexbox verwenden, um Bilder nebeneinander anzuzeigen */
-  align-items: center;    /* Bilder vertikal im Viewport zentrieren */
-  justify-content: flex-start; /* Bilder am linken Rand des Wrappers ausrichten */
-  margin: 0 auto;         /* Optional: Wrapper horizontal im Viewport zentrieren */
+  width: 8500px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
 }
 
-/* Bilder */
 .skinwrapper img,
 .canvaswrapper img,
 .paperwrapper img {
-  height: 85vh;           /* Höhe der Bilder auf maximal 90% des Viewports setzen */
-  width: auto;            /* Seitenverhältnis der Bilder beibehalten */
-  margin-right: 5px;     /* Abstand zwischen den Bildern */
+  height: 85vh;
+  width: auto;
+  margin-right: 5px;
 }
 
 /* =====================
