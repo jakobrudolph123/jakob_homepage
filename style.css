@@ -192,3 +192,11 @@ a:hover {
     font-size: 22px;
   }
 }
+/* =====================
+   CONTACT
+===================== */
+#contact {
+  font-family: Arial, sans-serif;
+  font-size: 30p;
+  letter-spacing: -0.1em;
+}
