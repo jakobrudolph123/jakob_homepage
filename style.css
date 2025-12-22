@@ -179,7 +179,7 @@ a:hover {
 .skinwrapper,
 .canvaswrapper,
 .paperwrapper {
-  width: 8500px;
+  width: 5000px;
   height: 100vh;
   display: flex;
   align-items: center;
