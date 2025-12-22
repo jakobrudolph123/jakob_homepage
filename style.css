@@ -183,7 +183,7 @@ a:hover {
 .skinwrapper img,
 .canvaswrapper img,
 .paperwrapper img {
-  height: 90vh;           /* Höhe der Bilder auf maximal 90% des Viewports setzen */
+  height: 80vh;           /* Höhe der Bilder auf maximal 90% des Viewports setzen */
   width: auto;            /* Seitenverhältnis der Bilder beibehalten */
   margin-right: 5px;     /* Abstand zwischen den Bildern */
 }
