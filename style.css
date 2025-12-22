@@ -184,6 +184,7 @@ a:hover {
 .canvaswrapper img,
 .paperwrapper img {
   display: inline-block;
+  height: 80vh;
 }
 
 /* =====================
