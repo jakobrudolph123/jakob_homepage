@@ -147,18 +147,16 @@ a:hover {
    TITLE ÜBER ALLEN WRAPPERN
 ===================== */
 .title {
-  position: fixed;       /* immer über allen Wrappern */
-  top: 10px;             /* 10px Abstand nach oben */
-  left: 5;               /* am linken Rand */
-  z-index: 10000;        /* sehr hoch, über allen anderen Elementen */
-  font-size: 50px;       /* gleiche Größe wie .back */
+  position: fixed;       /* fest auf dem Bildschirm */
+  top: 5px;          /* Abstand vom oberen Rand */
+  left: 5px;             /* Abstand vom linken Rand */
+  z-index: 9999;         /* liegt über allen Wrappern */
+  font-size: 30px;       /* Schriftgröße */
   font-weight: bold;      /* fett */
+  display: inline-block;
   text-decoration: none;
   color: black;
-}
-
-.title:hover {
-  text-decoration: line-through;
+  cursor: pointer;
 }
 
 /* =====================
