@@ -184,6 +184,8 @@ a:hover {
 .paperwrapper img {
   display: inline-block;
   height: 90vh;
+  display: flex;
+  align-items: center;
 }
 
 /* =====================
