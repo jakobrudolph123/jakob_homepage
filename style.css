@@ -143,12 +143,14 @@ a:hover {
    FOOTER
 ===================== */
 .footer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
+  width: 100%;                /* Footer über gesamte Breite */
+  text-align: center;          /* Text zentrieren */
   font-size: 10px;
   color: lightgrey;
   font-family: Arial, sans-serif;
+  padding: 10px 0;             /* Abstand oben und unten */
+  position: relative;          /* nicht mehr fixed */
+  bottom: 0;                   /* optional */
 }
 
 .footer a {
