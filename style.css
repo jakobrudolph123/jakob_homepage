@@ -125,6 +125,7 @@ a:hover {
   right: 5px;
   z-index: 9999;
   font-size: 30px;
+  letter-spacing: -0.1em;
   font-weight: bold;
   font-family: Arial, sans-serif;
 }
@@ -135,6 +136,7 @@ a:hover {
   left: 5px;
   z-index: 99999;
   font-size: 30px;
+  letter-spacing: -0.1em;
   font-weight: bold;
   font-family: Arial, sans-serif;
 }
@@ -204,7 +206,7 @@ a:hover {
 }
 
 #contact {
-  font-size: 35px;
+  font-size: 30px;
   font-family: Arial, sans-serif;
   letter-spacing: -0.1em;
   margin: 50px 50px 50px 50px;
