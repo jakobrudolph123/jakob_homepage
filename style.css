@@ -81,6 +81,7 @@ a:hover {
 ===================== */
 #primary_nav_wrap {
   width: 200px;
+  font-size: 1rem;
 }
 
 #primary_nav_wrap ul {
@@ -98,6 +99,7 @@ a:hover {
   padding: 12px 20px;
   font-weight: bold;
   transition: all 0.3s;
+  font-size: 1rem;
 }
 
 #primary_nav_wrap ul li a:hover {
@@ -118,6 +120,7 @@ a:hover {
 #primary_nav_wrap ul li ul li a {
   padding: 8px 15px;
   font-weight: normal;
+  font-size: 1rem;
 }
 
 #primary_nav_wrap ul li ul li a:hover {
