@@ -165,27 +165,24 @@ a:hover {
   letter-spacing: -0.1em;
 }
 /* ================================================== */
-
 /* =====================
    FULLSCREEN WRAPPER
 ===================== */
-
 .skinwrapper,
 .canvaswrapper,
 .paperwrapper {
-  width: 8500px;
-  height: 80vh;
+  width: 8500px; /* Breite der Wrapper */
+  height: 80vh;  /* Höhe des Wrappers */
   display: flex;
-  align-items: center;
+  justify-content: center;  /* Horizontale Zentrierung der Bilder */
+  align-items: center;      /* Vertikale Zentrierung der Bilder */
 }
 
 .skinwrapper img,
 .canvaswrapper img,
 .paperwrapper img {
-  display: inline-block;
-  height: 90vh;
-  display: flex;
-  align-items: center;
+  max-height: 90vh;  /* Maximale Höhe der Bilder */
+  width: auto;       /* Seitenverhältnis der Bilder bleibt erhalten */
 }
 
 /* =====================
