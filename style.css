@@ -45,7 +45,7 @@ a:hover {
 ===================== */
 #header {
   width: 100%;
-  text-align: center;
+  text-align: left;
   padding: 30px 0;
   box-sizing: border-box;
 }
@@ -127,9 +127,9 @@ a:hover {
 .back {
   position: fixed;       /* fest auf dem Bildschirm */
   bottom: 5px;          /* Abstand vom unteren Rand */
-  left: 0px;             /* Abstand vom linken Rand */
+  left: 5px;             /* Abstand vom linken Rand */
   z-index: 9999;         /* liegt über allen Wrappern */
-  font-size: 50px;       /* Schriftgröße */
+  font-size: 30px;       /* Schriftgröße */
   font-weight: bold;      /* fett */
   display: inline-block;
   text-decoration: none;
@@ -147,7 +147,7 @@ a:hover {
 .title {
   position: fixed;       /* immer über allen Wrappern */
   top: 10px;             /* 10px Abstand nach oben */
-  left: 0;               /* am linken Rand */
+  left: 5;               /* am linken Rand */
   z-index: 10000;        /* sehr hoch, über allen anderen Elementen */
   font-size: 50px;       /* gleiche Größe wie .back */
   font-weight: bold;      /* fett */
@@ -200,7 +200,7 @@ a:hover {
 ===================== */
 .skinwrapper {
   width: 10000px;
-  height: 100vh;
+  height: 80vh;
 }
 
 .skinwrapper div {
@@ -209,7 +209,7 @@ a:hover {
 
 .canvaswrapper {
   width: 8500px;
-  height: 100vh;
+  height: 80vh;
 }
 
 .canvaswrapper div {
@@ -218,7 +218,7 @@ a:hover {
 
 .paperwrapper {
   width: 8500px;
-  height: 100vh;
+  height: 80vh;
 }
 
 .paperwrapper div {
