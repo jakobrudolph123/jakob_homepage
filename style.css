@@ -1,4 +1,4 @@
-/* =====================
+=/* =====================
    Grundlayout
 ===================== */
 body {
@@ -76,11 +76,10 @@ a:hover {
 }
 
 /* =====================
-   VERTIKALE NAVIGATION
+   NAVIGATION
 ===================== */
 #primary_nav_wrap {
   width: 200px;
-  font-size: 1rem;
 }
 
 #primary_nav_wrap ul {
@@ -93,12 +92,15 @@ a:hover {
   position: relative;
 }
 
+/* Navigation Links wie Header */
 #primary_nav_wrap ul li a {
   display: block;
   padding: 12px 20px;
   font-weight: bold;
+  font-size: 2.5rem;           /* gleiche Schriftgröße wie h1 */
+  letter-spacing: -0.1em;      /* gleiche Letter-Spacing wie h1 */
+  word-spacing: 1em;           /* gleiche Word-Spacing wie h1 */
   transition: all 0.3s;
-  font-size: 1rem;
 }
 
 /* Dropdown */
