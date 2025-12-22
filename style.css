@@ -171,18 +171,18 @@ a:hover {
 .skinwrapper,
 .canvaswrapper,
 .paperwrapper {
-  width: 8500px; /* Breite der Wrapper */
-  height: 80vh;  /* Höhe des Wrappers */
+  width: 100%;           /* Wrapper auf volle Breite des Bildschirms */
+  height: 100vh;         /* Wrapper füllt 100% der Viewport-Höhe aus */
   display: flex;
-  justify-content: center;  /* Horizontale Zentrierung der Bilder */
-  align-items: center;      /* Vertikale Zentrierung der Bilder */
+  justify-content: center;  /* Bilder horizontal zentrieren */
+  align-items: center;      /* Bilder vertikal zentrieren */
 }
 
 .skinwrapper img,
 .canvaswrapper img,
 .paperwrapper img {
-  max-height: 90vh;  /* Maximale Höhe der Bilder */
-  width: auto;       /* Seitenverhältnis der Bilder bleibt erhalten */
+  max-height: 90vh;  /* Maximale Höhe der Bilder (90% der Viewport-Höhe) */
+  width: auto;       /* Das Seitenverhältnis bleibt erhalten */
 }
 
 /* =====================
