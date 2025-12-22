@@ -41,7 +41,7 @@ a:hover {
 }
 
 /* =====================
-   HEADER
+   HEADER (Startseite)
 ===================== */
 #header {
   width: 100%;
@@ -67,7 +67,6 @@ a:hover {
 
 /* =====================
    MAIN CONTENT
-   Navigation links + Logo rechts
 ===================== */
 .main-content {
   display: flex;
@@ -77,7 +76,7 @@ a:hover {
 }
 
 /* =====================
-   VERTIKALE NAVIGATION LINKS
+   VERTIKALE NAVIGATION
 ===================== */
 #primary_nav_wrap {
   width: 200px;
@@ -102,14 +101,9 @@ a:hover {
   font-size: 1rem;
 }
 
-#primary_nav_wrap ul li a:hover {
-  text-decoration: line-through;
-}
-
-/* Dropdown-Menü vertikal */
+/* Dropdown */
 #primary_nav_wrap ul li ul {
   display: none;
-  padding-left: 0px;
   margin-top: 5px;
 }
 
@@ -117,58 +111,29 @@ a:hover {
   display: block;
 }
 
-#primary_nav_wrap ul li ul li a {
-  padding: 8px 15px;
-  font-weight: normal;
-  font-size: 1rem;
-}
-
-#primary_nav_wrap ul li ul li a:hover {
-  text-decoration: line-through;
-}
-
 /* =====================
-   GLOBALER BACK-BUTTON
+   FIXE UI ELEMENTE
 ===================== */
 .back {
-  position: fixed;       /* fest auf dem Bildschirm */
-  bottom: 5px;          /* Abstand vom unteren Rand */
-  left: 5px;             /* Abstand vom linken Rand */
-  z-index: 9999;         /* liegt über allen Wrappern */
-  font-size: 30px;       /* Schriftgröße */
-  font-weight: bold;      /* fett */
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  z-index: 9999;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.back:hover {
-  text-decoration: line-through;
-}
-
-/* =====================
-   TITLE ÜBER ALLEN WRAPPERN
-===================== */
 .title {
   position: fixed;
   top: 5px;
   left: 5px;
-  z-index: 99999;      /* höher als alle Wrapper */
+  z-index: 99999;
   font-size: 30px;
   font-weight: bold;
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-}
-
-.title:hover {
-  text-decoration: line-through;
 }
 
 /* =====================
-   Footer
+   FOOTER
 ===================== */
 .footer {
   position: fixed;
@@ -180,91 +145,45 @@ a:hover {
 
 .footer a {
   color: lightgrey;
-  font-size: 15px;
 }
 
-.footer a:hover {
-  text-decoration: line-through;
+/* ==================================================
+   🔴 ENTSCHEIDENDE ERGÄNZUNG (NEU)
+   -> erkennt SKIN / PAPER / CANVAS symmetrisch
+================================================== */
+.page {
+  margin-left: 10px;
 }
 
-/* =====================
-   About / Text & Foto
-===================== */
-#abouttext {
-  width: 450px;
-  height: 200px;
-  float: left;
+.page-head {
+  margin-bottom: 20px;
 }
 
-#aboutfoto {
-  float: right;
-  margin-left: 50px;
-  margin-top: 50px;
+.page-head h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: -0.1em;
 }
+/* ================================================== */
 
 /* =====================
    FULLSCREEN WRAPPER
-   (Displayhöhe)
 ===================== */
 .skinwrapper {
   width: 10000px;
   height: 80vh;
 }
 
-.skinwrapper div {
-  display: inline-block;
-}
-
-.canvaswrapper {
-  width: 8500px;
-  height: 80vh;
-}
-
-.canvaswrapper div {
-  display: inline-block;
-}
-
+.canvaswrapper,
 .paperwrapper {
   width: 8500px;
   height: 80vh;
 }
 
-.paperwrapper div {
+.skinwrapper img,
+.canvaswrapper img,
+.paperwrapper img {
   display: inline-block;
-}
-
-/* =====================
-   About Wrapper
-===================== */
-.aboutmetawrapper {
-  margin-left: 50px;
-  width: 900px;
-  height: 600px;
-}
-
-.aboutmetawrapper div {
-  display: block;
-}
-
-.aboutwrapper {
-  margin-left: 50px;
-  width: 850px;
-  height: 600px;
-}
-
-.aboutwrapper div {
-  display: inline-block;
-}
-
-/* =====================
-   Sonstiges
-===================== */
-#aboutbottom {
-  margin-top: 50px;
-}
-
-#paper1 {
-  margin-top: 50px;
 }
 
 /* =====================
@@ -273,36 +192,10 @@ a:hover {
 @media (max-width: 768px) {
   .main-content {
     flex-direction: column;
-    align-items: center;
   }
 
-  #primary_nav_wrap {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  #primary_nav_wrap ul li {
-    display: block;
-  }
-
-  #primary_nav_wrap ul li ul {
-    position: static;
-    padding-left: 20px;
-  }
-
-  .indexlogo {
-    float: none;
-    margin-left: 0;
-    margin-top: 20px;
-  }
-
+  .title,
   .back {
-    left: 0px;
-    bottom: 20px;
-  }
-
-  .title {
-    top: 10px;
-    left: 0;
+    font-size: 22px;
   }
 }
